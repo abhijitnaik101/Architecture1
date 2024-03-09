@@ -41,7 +41,7 @@ const Cards = (props) => {
                 <img src={props.image} alt="No image" className="w-full h-4/5 object-cover rounded-lg"></img>
                 <button className="h-12 w-full text-small border-[1px] transition duration-300 hover:bg-slate-900 hover:text-white border-black my-2 rounded-md font-semibold">{props.buttonTitle}</button>
             </div>
-        </>
+        </> 
     )
 }
 
