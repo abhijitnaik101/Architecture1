@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from './Sections/Hero';
 import Info from './Sections/Info';
 import About from './Sections/About';
+import Featured from './Sections/Featured';
 
 const App = () => {
   return(
@@ -10,6 +11,7 @@ const App = () => {
     <Hero/>
     <Info/>
     <About/>
+    <Featured/>
     </>
   )
 }
